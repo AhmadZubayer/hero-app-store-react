@@ -11,6 +11,7 @@ import Home from './components/pages/Home.jsx'
 import axios from 'axios'
 import AllApps from './components/pages/AllApps.jsx'
 import AppDetailsPage from './components/pages/AppDetailsPage.jsx'
+import PageDoesNotExist from './components/pages/PageDoesNotExist.jsx'
 
 
 
@@ -19,12 +20,17 @@ const router = createBrowserRouter([
     path: '/', 
     Component: App,
     children: [
-      { index: true, Component: Home },
+      { index: true, 
+        loader: async () => {
+          const res = await axios.get('/app-list.json');
+          return { appData: res.data };
+        },
+        Component: Home },
       { 
         path: 'allApps', 
         loader: async () => {
-          const response = await axios.get('/app-list.json');
-          return { appData: response.data };
+          const res = await axios.get('/app-list.json');
+          return { appData: res.data };
         },
         Component: AllApps
       },
@@ -36,7 +42,8 @@ const router = createBrowserRouter([
        },
        Component: AppDetailsPage
       },
-      { path: 'installedApps', Component: page3 }
+      { path: 'installedApps', Component: page3 },
+      { path: '*', Component: PageDoesNotExist }
     ]
   }
 ])
