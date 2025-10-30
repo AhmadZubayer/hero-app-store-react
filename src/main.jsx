@@ -8,18 +8,29 @@ import page1 from './components/tests/page1.jsx'
 import page2 from './components/tests/page2.jsx'
 import page3 from './components/tests/page3.jsx'
 import Home from './components/pages/Home.jsx'
-
-const router = createBrowserRouter([{
-  path: '/',
-  Component: App,
-  children: [
-    {index: true, Component: Home},
-    {path: 'allApps', Component: page2},
-    {path: 'installedApps', Component: page3}
-  ]
+import axios from 'axios'
+import AllApps from './components/pages/AllApps.jsx'
 
 
-}])
+
+const router = createBrowserRouter([
+  { 
+    path: '/', 
+    Component: App,
+    children: [
+      { index: true, Component: Home },
+      { 
+        path: 'allApps', 
+        loader: async () => {
+          const response = await axios.get('/app-list.json');
+          return { appData: response.data };
+        },
+        Component: AllApps
+      },
+      { path: 'installedApps', Component: page3 }
+    ]
+  }
+])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
