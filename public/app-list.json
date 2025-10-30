@@ -1,6 +1,6 @@
 [
   {
-    "image": "src/assets/Apps/chrome.png",
+    "image": "/Apps/chrome.png",
     "title": "Google Chrome",
     "companyName": "Google LLC",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/firefox.png",
+    "image": "/Apps/firefox.png",
     "title": "Firefox Browser",
     "companyName": "Mozilla",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/vscode.svg",
+    "image": "/Apps/vscode.svg",
     "title": "Visual Studio Code",
     "companyName": "Microsoft Corporation",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/visual studio.svg",
+    "image": "/Apps/visual studio.svg",
     "title": "Visual Studio",
     "companyName": "Microsoft Corporation",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/JetBrains_IntelliJ_IDEA_Product_Icon.svg",
+    "image": "/Apps/JetBrains_IntelliJ_IDEA_Product_Icon.svg",
     "title": "IntelliJ IDEA",
     "companyName": "JetBrains",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/PyCharm_Icon.svg",
+    "image": "/Apps/PyCharm_Icon.svg",
     "title": "PyCharm",
     "companyName": "JetBrains",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/anaconda-python-distribution-icon.png",
+    "image": "/Apps/anaconda-python-distribution-icon.png",
     "title": "Anaconda",
     "companyName": "Anaconda Inc.",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/photoshop.png",
+    "image": "/Apps/photoshop.png",
     "title": "Adobe Photoshop",
     "companyName": "Adobe Inc.",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/illustrator.png",
+    "image": "/Apps/illustrator.png",
     "title": "Adobe Illustrator",
     "companyName": "Adobe Inc.",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/premiere-pro.png",
+    "image": "/Apps/premiere-pro.png",
     "title": "Adobe Premiere Pro",
     "companyName": "Adobe Inc.",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/after-effects.png",
+    "image": "/Apps/after-effects.png",
     "title": "Adobe After Effects",
     "companyName": "Adobe Inc.",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/xd.png",
+    "image": "/Apps/xd.png",
     "title": "Adobe XD",
     "companyName": "Adobe Inc.",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/indesign.png",
+    "image": "/Apps/indesign.png",
     "title": "Adobe InDesign",
     "companyName": "Adobe Inc.",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/photoshop-lightroom.png",
+    "image": "/Apps/photoshop-lightroom.png",
     "title": "Adobe Lightroom",
     "companyName": "Adobe Inc.",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/acrobat.png",
+    "image": "/Apps/acrobat.png",
     "title": "Adobe Acrobat",
     "companyName": "Adobe Inc.",
     "id": 15,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/512px-DaVinci_Resolve_Studio.png",
+    "image": "/Apps/512px-DaVinci_Resolve_Studio.png",
     "title": "DaVinci Resolve",
     "companyName": "Blackmagic Design",
     "id": 16,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/capcut.png",
+    "image": "/Apps/capcut.png",
     "title": "CapCut",
     "companyName": "Bytedance",
     "id": 17,
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/canva-icon.png",
+    "image": "/Apps/canva-icon.png",
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 18,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/facebook.png",
+    "image": "/Apps/facebook.png",
     "title": "Facebook",
     "companyName": "Meta Platforms Inc.",
     "id": 19,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/instagram.png",
+    "image": "/Apps/instagram.png",
     "title": "Instagram",
     "companyName": "Meta Platforms Inc.",
     "id": 20,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/whatsapp.png",
+    "image": "/Apps/whatsapp.png",
     "title": "WhatsApp",
     "companyName": "Meta Platforms Inc.",
     "id": 21,
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/youtube.png",
+    "image": "/Apps/youtube.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 22,
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/netflix.png",
+    "image": "/Apps/netflix.png",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "id": 23,
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/spotify.png",
+    "image": "/Apps/spotify.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 24,
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/discord.png",
+    "image": "/Apps/discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 25,
@@ -450,7 +450,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/telegram-icon.png",
+    "image": "/Apps/telegram-icon.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 26,
@@ -468,7 +468,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/slack-icon.png",
+    "image": "/Apps/slack-icon.png",
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 27,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/Teams.png",
+    "image": "/Apps/Teams.png",
     "title": "Microsoft Teams",
     "companyName": "Microsoft Corporation",
     "id": 28,
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/zoom.png",
+    "image": "/Apps/zoom.png",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 29,
@@ -522,7 +522,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/outlook.png",
+    "image": "/Apps/outlook.png",
     "title": "Microsoft Outlook",
     "companyName": "Microsoft Corporation",
     "id": 30,
@@ -540,7 +540,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/google-drive.png",
+    "image": "/Apps/google-drive.png",
     "title": "Google Drive",
     "companyName": "Google LLC",
     "id": 31,
@@ -558,7 +558,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/dropbox.png",
+    "image": "/Apps/dropbox.png",
     "title": "Dropbox",
     "companyName": "Dropbox Inc.",
     "id": 32,
@@ -576,7 +576,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/chatgpt.png",
+    "image": "/Apps/chatgpt.png",
     "title": "ChatGPT",
     "companyName": "OpenAI",
     "id": 33,
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/microsoft-365-copilot-seeklogo.png",
+    "image": "/Apps/microsoft-365-copilot-seeklogo.png",
     "title": "Microsoft 365 Copilot",
     "companyName": "Microsoft Corporation",
     "id": 34,
@@ -612,7 +612,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/microsoft.png",
+    "image": "/Apps/microsoft.png",
     "title": "Microsoft 365",
     "companyName": "Microsoft Corporation",
     "id": 35,
@@ -630,7 +630,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/window.png",
+    "image": "/Apps/window.png",
     "title": "Windows 11",
     "companyName": "Microsoft Corporation",
     "id": 36,
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/linkedin.png",
+    "image": "/Apps/linkedin.png",
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "id": 37,
@@ -666,7 +666,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/x-social-media-round-icon.png",
+    "image": "/Apps/x-social-media-round-icon.png",
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 38,
@@ -684,7 +684,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/reddit-icon.png",
+    "image": "/Apps/reddit-icon.png",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 39,
@@ -702,7 +702,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/pinterest-round-color-icon.png",
+    "image": "/Apps/pinterest-round-color-icon.png",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 40,
@@ -720,7 +720,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/twitch-color-icon.png",
+    "image": "/Apps/twitch-color-icon.png",
     "title": "Twitch",
     "companyName": "Amazon.com Inc.",
     "id": 41,
@@ -738,7 +738,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/soundcloud.png",
+    "image": "/Apps/soundcloud.png",
     "title": "SoundCloud",
     "companyName": "SoundCloud Global Limited",
     "id": 42,
@@ -756,7 +756,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/behance.png",
+    "image": "/Apps/behance.png",
     "title": "Behance",
     "companyName": "Adobe Inc.",
     "id": 43,
@@ -774,7 +774,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/amazon-icon.png",
+    "image": "/Apps/amazon-icon.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon.com Inc.",
     "id": 44,
@@ -792,7 +792,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/uber.png",
+    "image": "/Apps/uber.png",
     "title": "Uber",
     "companyName": "Uber Technologies Inc.",
     "id": 45,
@@ -810,7 +810,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/paypal.png",
+    "image": "/Apps/paypal.png",
     "title": "PayPal",
     "companyName": "PayPal Holdings Inc.",
     "id": 46,
@@ -828,7 +828,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/bkash.png",
+    "image": "/Apps/bkash.png",
     "title": "bKash",
     "companyName": "bKash Limited",
     "id": 47,
@@ -846,7 +846,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/player.png",
+    "image": "/Apps/player.png",
     "title": "VLC Media Player",
     "companyName": "VideoLAN",
     "id": 48,
@@ -864,7 +864,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/todoist-icon.png",
+    "image": "/Apps/todoist-icon.png",
     "title": "Todoist",
     "companyName": "Doist Inc.",
     "id": 49,
@@ -882,7 +882,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/proton-vpn-icon.png",
+    "image": "/Apps/proton-vpn-icon.png",
     "title": "Proton VPN",
     "companyName": "Proton AG",
     "id": 50,
@@ -900,7 +900,7 @@
     ]
   },
   {
-    "image": "src/assets/Apps/ShareX_Logo.png",
+    "image": "/Apps/ShareX_Logo.png",
     "title": "ShareX",
     "companyName": "ShareX Team",
     "id": 51,

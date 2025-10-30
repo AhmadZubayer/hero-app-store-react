@@ -1,11 +1,20 @@
 import React from 'react';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
+import { useNavigate } from 'react-router';
 
 const AppCard = ({ app }) => {
+    const navigate = useNavigate();
+
+    const handleCardClick = () => {
+        navigate(`/app/${app.id}`);
+    };
+
     return (
-        <div className="bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow w-[380px] h-[430px] flex flex-col">
-        
+        <div 
+            onClick={handleCardClick}
+            className="bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow w-[380px] h-[430px] flex flex-col cursor-pointer"
+        >
             <div className="rounded-lg w-full h-[320px] mb-2 flex items-center justify-center overflow-hidden p-4">
                 <img 
                     src={app.image} 

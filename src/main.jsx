@@ -10,6 +10,7 @@ import page3 from './components/tests/page3.jsx'
 import Home from './components/pages/Home.jsx'
 import axios from 'axios'
 import AllApps from './components/pages/AllApps.jsx'
+import AppDetailsPage from './components/pages/AppDetailsPage.jsx'
 
 
 
@@ -26,6 +27,14 @@ const router = createBrowserRouter([
           return { appData: response.data };
         },
         Component: AllApps
+      },
+      {path: 'app/:appId',
+       loader : async({params}) => {
+        const res = await axios.get('/app-list.json');
+        const app = res.data.find((a)=> a.id == params.appId);
+        return { app };
+       },
+       Component: AppDetailsPage
       },
       { path: 'installedApps', Component: page3 }
     ]
