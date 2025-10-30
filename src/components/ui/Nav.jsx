@@ -1,6 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { NavLink, Link } from 'react-router';
 import logo from '../../assets/logo.png';
+import './Nav.css';
+import github from '../../assets/github.png';
+
 
 const Nav = () => {
     return (
@@ -13,39 +16,28 @@ const Nav = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/allApps">Apps</NavLink>
+                        <NavLink to="/installedApps">Installaton</NavLink>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl flex items-center gap-2">
+                <Link to="/" className="btn btn-ghost text-xl flex items-center gap-2">
                     <img src={logo} alt="Logo" className="w-8 h-8" />
-                    <span>Hero Apps</span>
-                </a>
+                    <span>HERO.IO</span>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                <ul className="menu menu-horizontal px-1 gap-10">
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/allApps">Apps</NavLink>
+                    <NavLink to="/installedApps">Installaton</NavLink>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a href="https://github.com/AhmadZubayer" className="btn bg-gradient-to-r from-[#642fe4] to-[#995df1] text-white border-none hover:from-[#5526cc] hover:to-[#8449d9] flex items-center gap-2">
+                    <img src={github} alt="GitHub" className="w-5 h-5" />
+                    Contribute
+                </a>
             </div>
         </div>
     );
