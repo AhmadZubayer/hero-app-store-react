@@ -65,6 +65,11 @@ const AppDetails = ({app}) => {
                         <Bar dataKey="count" fill="#ff8800" radius={[0, 4, 4, 0]} />
                     </BarChart>
                 </ResponsiveContainer>
+                </div>
+                <div>
+                    <h2 className="text-xl text-black font-bold mb-4">Description</h2>
+                    <p className='text-black text-xl'>{app.description}</p>
+
 
                 </div>
             </div>
