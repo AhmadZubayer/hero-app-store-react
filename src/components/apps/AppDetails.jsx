@@ -2,8 +2,10 @@ import React from 'react';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
+import { BarChart, Legend, XAxis, YAxis, CartesianGrid, Tooltip, Bar, ResponsiveContainer } from 'recharts';
 
 const AppDetails = ({app}) => {
+    const chartData = app.ratings;
     return (
         <div className="bg-gray-50 p-8">
             <div className="bg-white rounded-2xl shadow-sm p-8 max-w-7xl mx-auto ">
@@ -54,6 +56,15 @@ const AppDetails = ({app}) => {
                     </div>
                 </div>
                 <div className='border-t border-b border-gray-200 py-4 my-6'>
+                    <h2 className="text-xl text-black font-bold mb-4">Ratings</h2>
+                
+                <ResponsiveContainer width="100%" height={200}>
+                    <BarChart data={chartData} layout="vertical">
+                        <XAxis type="number" />
+                        <YAxis type="category" dataKey="name" />
+                        <Bar dataKey="count" fill="#ff8800" radius={[0, 4, 4, 0]} />
+                    </BarChart>
+                </ResponsiveContainer>
 
                 </div>
             </div>

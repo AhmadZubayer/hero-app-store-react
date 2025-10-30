@@ -1,920 +1,1685 @@
 [
-  {
-    "image": "/Apps/chrome.png",
-    "title": "Google Chrome",
-    "companyName": "Google LLC",
-    "id": 1,
-    "description": "Fast, secure browser with built-in Google services. Browse with confidence and speed.",
-    "size": 95.5,
-    "reviews": 12500000,
-    "ratingAvg": 4.5,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 125000 },
-      { "name": "2 star", "count": 250000 },
-      { "name": "3 star", "count": 625000 },
-      { "name": "4 star", "count": 3750000 },
-      { "name": "5 star", "count": 7750000 }
-    ]
-  },
-  {
-    "image": "/Apps/firefox.png",
-    "title": "Firefox Browser",
-    "companyName": "Mozilla",
-    "id": 2,
-    "description": "Fast, private and safe web browser. Respect your privacy while browsing the internet.",
-    "size": 78.3,
-    "reviews": 8500000,
-    "ratingAvg": 4.4,
-    "downloads": 1500000000,
-    "ratings": [
-      { "name": "1 star", "count": 85000 },
-      { "name": "2 star", "count": 170000 },
-      { "name": "3 star", "count": 510000 },
-      { "name": "4 star", "count": 3400000 },
-      { "name": "5 star", "count": 4335000 }
-    ]
-  },
-  {
-    "image": "/Apps/vscode.svg",
-    "title": "Visual Studio Code",
-    "companyName": "Microsoft Corporation",
-    "id": 3,
-    "description": "Powerful code editor with IntelliSense, debugging, and Git integration. Perfect for developers.",
-    "size": 125.7,
-    "reviews": 5600000,
-    "ratingAvg": 4.8,
-    "downloads": 850000000,
-    "ratings": [
-      { "name": "1 star", "count": 28000 },
-      { "name": "2 star", "count": 56000 },
-      { "name": "3 star", "count": 280000 },
-      { "name": "4 star", "count": 1680000 },
-      { "name": "5 star", "count": 3556000 }
-    ]
-  },
-  {
-    "image": "/Apps/visual studio.svg",
-    "title": "Visual Studio",
-    "companyName": "Microsoft Corporation",
-    "id": 4,
-    "description": "Comprehensive IDE for .NET and C++ development. Build, debug, and deploy applications efficiently.",
-    "size": 2456.8,
-    "reviews": 3200000,
-    "ratingAvg": 4.6,
-    "downloads": 450000000,
-    "ratings": [
-      { "name": "1 star", "count": 32000 },
-      { "name": "2 star", "count": 64000 },
-      { "name": "3 star", "count": 320000 },
-      { "name": "4 star", "count": 1280000 },
-      { "name": "5 star", "count": 1504000 }
-    ]
-  },
-  {
-    "image": "/Apps/JetBrains_IntelliJ_IDEA_Product_Icon.svg",
-    "title": "IntelliJ IDEA",
-    "companyName": "JetBrains",
-    "id": 5,
-    "description": "Intelligent Java IDE with smart code completion. The best tool for Java development.",
-    "size": 845.2,
-    "reviews": 2100000,
-    "ratingAvg": 4.7,
-    "downloads": 280000000,
-    "ratings": [
-      { "name": "1 star", "count": 21000 },
-      { "name": "2 star", "count": 42000 },
-      { "name": "3 star", "count": 210000 },
-      { "name": "4 star", "count": 840000 },
-      { "name": "5 star", "count": 987000 }
-    ]
-  },
-  {
-    "image": "/Apps/PyCharm_Icon.svg",
-    "title": "PyCharm",
-    "companyName": "JetBrains",
-    "id": 6,
-    "description": "Professional Python IDE for data science and web development. Code smarter, not harder.",
-    "size": 678.4,
-    "reviews": 1850000,
-    "ratingAvg": 4.6,
-    "downloads": 225000000,
-    "ratings": [
-      { "name": "1 star", "count": 18500 },
-      { "name": "2 star", "count": 37000 },
-      { "name": "3 star", "count": 185000 },
-      { "name": "4 star", "count": 740000 },
-      { "name": "5 star", "count": 869500 }
-    ]
-  },
-  {
-    "image": "/Apps/anaconda-python-distribution-icon.png",
-    "title": "Anaconda",
-    "companyName": "Anaconda Inc.",
-    "id": 7,
-    "description": "Python distribution for data science and machine learning. Includes 1,500+ packages.",
-    "size": 3456.9,
-    "reviews": 980000,
-    "ratingAvg": 4.5,
-    "downloads": 125000000,
-    "ratings": [
-      { "name": "1 star", "count": 9800 },
-      { "name": "2 star", "count": 19600 },
-      { "name": "3 star", "count": 98000 },
-      { "name": "4 star", "count": 392000 },
-      { "name": "5 star", "count": 460600 }
-    ]
-  },
-  {
-    "image": "/Apps/photoshop.png",
-    "title": "Adobe Photoshop",
-    "companyName": "Adobe Inc.",
-    "id": 8,
-    "description": "Professional image editing software. Create stunning graphics and photos with industry-leading tools.",
-    "size": 1987.5,
-    "reviews": 7800000,
-    "ratingAvg": 4.6,
-    "downloads": 650000000,
-    "ratings": [
-      { "name": "1 star", "count": 78000 },
-      { "name": "2 star", "count": 156000 },
-      { "name": "3 star", "count": 780000 },
-      { "name": "4 star", "count": 3120000 },
-      { "name": "5 star", "count": 3666000 }
-    ]
-  },
-  {
-    "image": "/Apps/illustrator.png",
-    "title": "Adobe Illustrator",
-    "companyName": "Adobe Inc.",
-    "id": 9,
-    "description": "Vector graphics editor for logos, icons, and illustrations. Industry-standard design software.",
-    "size": 1756.3,
-    "reviews": 4200000,
-    "ratingAvg": 4.5,
-    "downloads": 420000000,
-    "ratings": [
-      { "name": "1 star", "count": 42000 },
-      { "name": "2 star", "count": 84000 },
-      { "name": "3 star", "count": 420000 },
-      { "name": "4 star", "count": 1680000 },
-      { "name": "5 star", "count": 1974000 }
-    ]
-  },
-  {
-    "image": "/Apps/premiere-pro.png",
-    "title": "Adobe Premiere Pro",
-    "companyName": "Adobe Inc.",
-    "id": 10,
-    "description": "Professional video editing software. Create stunning videos with powerful editing tools.",
-    "size": 2134.6,
-    "reviews": 5600000,
-    "ratingAvg": 4.6,
-    "downloads": 480000000,
-    "ratings": [
-      { "name": "1 star", "count": 56000 },
-      { "name": "2 star", "count": 112000 },
-      { "name": "3 star", "count": 560000 },
-      { "name": "4 star", "count": 2240000 },
-      { "name": "5 star", "count": 2632000 }
-    ]
-  },
-  {
-    "image": "/Apps/after-effects.png",
-    "title": "Adobe After Effects",
-    "companyName": "Adobe Inc.",
-    "id": 11,
-    "description": "Motion graphics and visual effects software. Bring your creative vision to life.",
-    "size": 2045.8,
-    "reviews": 3900000,
-    "ratingAvg": 4.5,
-    "downloads": 360000000,
-    "ratings": [
-      { "name": "1 star", "count": 39000 },
-      { "name": "2 star", "count": 78000 },
-      { "name": "3 star", "count": 390000 },
-      { "name": "4 star", "count": 1560000 },
-      { "name": "5 star", "count": 1833000 }
-    ]
-  },
-  {
-    "image": "/Apps/xd.png",
-    "title": "Adobe XD",
-    "companyName": "Adobe Inc.",
-    "id": 12,
-    "description": "UI/UX design and prototyping tool. Design, prototype, and share user experiences.",
-    "size": 456.7,
-    "reviews": 2800000,
-    "ratingAvg": 4.4,
-    "downloads": 310000000,
-    "ratings": [
-      { "name": "1 star", "count": 28000 },
-      { "name": "2 star", "count": 56000 },
-      { "name": "3 star", "count": 280000 },
-      { "name": "4 star", "count": 1120000 },
-      { "name": "5 star", "count": 1316000 }
-    ]
-  },
-  {
-    "image": "/Apps/indesign.png",
-    "title": "Adobe InDesign",
-    "companyName": "Adobe Inc.",
-    "id": 13,
-    "description": "Desktop publishing software for print and digital media. Create beautiful layouts and designs.",
-    "size": 1234.5,
-    "reviews": 2100000,
-    "ratingAvg": 4.5,
-    "downloads": 240000000,
-    "ratings": [
-      { "name": "1 star", "count": 21000 },
-      { "name": "2 star", "count": 42000 },
-      { "name": "3 star", "count": 210000 },
-      { "name": "4 star", "count": 840000 },
-      { "name": "5 star", "count": 987000 }
-    ]
-  },
-  {
-    "image": "/Apps/photoshop-lightroom.png",
-    "title": "Adobe Lightroom",
-    "companyName": "Adobe Inc.",
-    "id": 14,
-    "description": "Photo editing and organization software. Perfect for photographers and content creators.",
-    "size": 987.3,
-    "reviews": 5200000,
-    "ratingAvg": 4.6,
-    "downloads": 520000000,
-    "ratings": [
-      { "name": "1 star", "count": 52000 },
-      { "name": "2 star", "count": 104000 },
-      { "name": "3 star", "count": 520000 },
-      { "name": "4 star", "count": 2080000 },
-      { "name": "5 star", "count": 2444000 }
-    ]
-  },
-  {
-    "image": "/Apps/acrobat.png",
-    "title": "Adobe Acrobat",
-    "companyName": "Adobe Inc.",
-    "id": 15,
-    "description": "PDF creator, editor, and reader. Work with PDFs like never before.",
-    "size": 678.9,
-    "reviews": 9800000,
-    "ratingAvg": 4.3,
-    "downloads": 1200000000,
-    "ratings": [
-      { "name": "1 star", "count": 98000 },
-      { "name": "2 star", "count": 196000 },
-      { "name": "3 star", "count": 980000 },
-      { "name": "4 star", "count": 3920000 },
-      { "name": "5 star", "count": 4606000 }
-    ]
-  },
-  {
-    "image": "/Apps/512px-DaVinci_Resolve_Studio.png",
-    "title": "DaVinci Resolve",
-    "companyName": "Blackmagic Design",
-    "id": 16,
-    "description": "Professional video editing, color correction, and audio post-production. Hollywood-grade software.",
-    "size": 3567.4,
-    "reviews": 1850000,
-    "ratingAvg": 4.7,
-    "downloads": 145000000,
-    "ratings": [
-      { "name": "1 star", "count": 18500 },
-      { "name": "2 star", "count": 37000 },
-      { "name": "3 star", "count": 185000 },
-      { "name": "4 star", "count": 740000 },
-      { "name": "5 star", "count": 869500 }
-    ]
-  },
-  {
-    "image": "/Apps/capcut.png",
-    "title": "CapCut",
-    "companyName": "Bytedance",
-    "id": 17,
-    "description": "Free video editing app with powerful features. Create viral content with ease.",
-    "size": 234.6,
-    "reviews": 18500000,
-    "ratingAvg": 4.7,
-    "downloads": 2500000000,
-    "ratings": [
-      { "name": "1 star", "count": 185000 },
-      { "name": "2 star", "count": 370000 },
-      { "name": "3 star", "count": 1850000 },
-      { "name": "4 star", "count": 7400000 },
-      { "name": "5 star", "count": 8695000 }
-    ]
-  },
-  {
-    "image": "/Apps/canva-icon.png",
-    "title": "Canva",
-    "companyName": "Canva Pty Ltd",
-    "id": 18,
-    "description": "Graphic design made easy. Create stunning designs with drag-and-drop simplicity.",
-    "size": 156.8,
-    "reviews": 25000000,
-    "ratingAvg": 4.8,
-    "downloads": 3500000000,
-    "ratings": [
-      { "name": "1 star", "count": 250000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 11750000 }
-    ]
-  },
-  {
-    "image": "/Apps/facebook.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
-    "id": 19,
-    "description": "Connect with friends and family. Share photos, videos, and stay updated.",
-    "size": 89.4,
-    "reviews": 85000000,
-    "ratingAvg": 3.8,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 8500000 },
-      { "name": "2 star", "count": 8500000 },
-      { "name": "3 star", "count": 17000000 },
-      { "name": "4 star", "count": 25500000 },
-      { "name": "5 star", "count": 25500000 }
-    ]
-  },
-  {
-    "image": "/Apps/instagram.png",
-    "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
-    "id": 20,
-    "description": "Share photos and videos with friends. Discover content from creators worldwide.",
-    "size": 67.3,
-    "reviews": 120000000,
-    "ratingAvg": 4.2,
-    "downloads": 8000000000,
-    "ratings": [
-      { "name": "1 star", "count": 12000000 },
-      { "name": "2 star", "count": 12000000 },
-      { "name": "3 star", "count": 24000000 },
-      { "name": "4 star", "count": 36000000 },
-      { "name": "5 star", "count": 36000000 }
-    ]
-  },
-  {
-    "image": "/Apps/whatsapp.png",
-    "title": "WhatsApp",
-    "companyName": "Meta Platforms Inc.",
-    "id": 21,
-    "description": "Simple, secure messaging and calling. Connect with anyone, anywhere in the world.",
-    "size": 54.2,
-    "reviews": 95000000,
-    "ratingAvg": 4.4,
-    "downloads": 12000000000,
-    "ratings": [
-      { "name": "1 star", "count": 9500000 },
-      { "name": "2 star", "count": 9500000 },
-      { "name": "3 star", "count": 19000000 },
-      { "name": "4 star", "count": 28500000 },
-      { "name": "5 star", "count": 28500000 }
-    ]
-  },
-  {
-    "image": "/Apps/youtube.png",
-    "title": "YouTube",
-    "companyName": "Google LLC",
-    "id": 22,
-    "description": "Watch, create, and share videos. The world's largest video platform.",
-    "size": 112.5,
-    "reviews": 145000000,
-    "ratingAvg": 4.3,
-    "downloads": 15000000000,
-    "ratings": [
-      { "name": "1 star", "count": 14500000 },
-      { "name": "2 star", "count": 14500000 },
-      { "name": "3 star", "count": 29000000 },
-      { "name": "4 star", "count": 43500000 },
-      { "name": "5 star", "count": 43500000 }
-    ]
-  },
-  {
-    "image": "/Apps/netflix.png",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
-    "id": 23,
-    "description": "Watch TV shows and movies. Unlimited streaming of thousands of titles.",
-    "size": 78.9,
-    "reviews": 42000000,
-    "ratingAvg": 4.5,
-    "downloads": 3500000000,
-    "ratings": [
-      { "name": "1 star", "count": 4200000 },
-      { "name": "2 star", "count": 4200000 },
-      { "name": "3 star", "count": 8400000 },
-      { "name": "4 star", "count": 12600000 },
-      { "name": "5 star", "count": 12600000 }
-    ]
-  },
-  {
-    "image": "/Apps/spotify.png",
-    "title": "Spotify",
-    "companyName": "Spotify AB",
-    "id": 24,
-    "description": "Music and podcasts streaming service. Millions of songs at your fingertips.",
-    "size": 45.6,
-    "reviews": 38000000,
-    "ratingAvg": 4.4,
-    "downloads": 4200000000,
-    "ratings": [
-      { "name": "1 star", "count": 3800000 },
-      { "name": "2 star", "count": 3800000 },
-      { "name": "3 star", "count": 7600000 },
-      { "name": "4 star", "count": 11400000 },
-      { "name": "5 star", "count": 11400000 }
-    ]
-  },
-  {
-    "image": "/Apps/discord.png",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "id": 25,
-    "description": "Chat, talk, and hang out. Your place to talk with communities and friends.",
-    "size": 92.3,
-    "reviews": 28000000,
-    "ratingAvg": 4.6,
-    "downloads": 1500000000,
-    "ratings": [
-      { "name": "1 star", "count": 2800000 },
-      { "name": "2 star", "count": 2800000 },
-      { "name": "3 star", "count": 5600000 },
-      { "name": "4 star", "count": 8400000 },
-      { "name": "5 star", "count": 8400000 }
-    ]
-  },
-  {
-    "image": "/Apps/telegram-icon.png",
-    "title": "Telegram",
-    "companyName": "Telegram FZ-LLC",
-    "id": 26,
-    "description": "Fast, secure messaging app. Cloud-based with powerful features.",
-    "size": 56.7,
-    "reviews": 32000000,
-    "ratingAvg": 4.5,
-    "downloads": 2800000000,
-    "ratings": [
-      { "name": "1 star", "count": 3200000 },
-      { "name": "2 star", "count": 3200000 },
-      { "name": "3 star", "count": 6400000 },
-      { "name": "4 star", "count": 9600000 },
-      { "name": "5 star", "count": 9600000 }
-    ]
-  },
-  {
-    "image": "/Apps/slack-icon.png",
-    "title": "Slack",
-    "companyName": "Slack Technologies",
-    "id": 27,
-    "description": "Team collaboration and messaging platform. Where work happens.",
-    "size": 134.2,
-    "reviews": 8500000,
-    "ratingAvg": 4.5,
-    "downloads": 650000000,
-    "ratings": [
-      { "name": "1 star", "count": 850000 },
-      { "name": "2 star", "count": 850000 },
-      { "name": "3 star", "count": 1700000 },
-      { "name": "4 star", "count": 2550000 },
-      { "name": "5 star", "count": 2550000 }
-    ]
-  },
-  {
-    "image": "/Apps/Teams.png",
-    "title": "Microsoft Teams",
-    "companyName": "Microsoft Corporation",
-    "id": 28,
-    "description": "Chat, meet, call, and collaborate. All in one place for teamwork.",
-    "size": 156.8,
-    "reviews": 12500000,
-    "ratingAvg": 4.3,
-    "downloads": 980000000,
-    "ratings": [
-      { "name": "1 star", "count": 1250000 },
-      { "name": "2 star", "count": 1250000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 3750000 },
-      { "name": "5 star", "count": 3750000 }
-    ]
-  },
-  {
-    "image": "/Apps/zoom.png",
-    "title": "Zoom",
-    "companyName": "Zoom Video Communications",
-    "id": 29,
-    "description": "Video conferencing and messaging. Connect from anywhere on any device.",
-    "size": 98.4,
-    "reviews": 18500000,
-    "ratingAvg": 4.4,
-    "downloads": 1850000000,
-    "ratings": [
-      { "name": "1 star", "count": 1850000 },
-      { "name": "2 star", "count": 1850000 },
-      { "name": "3 star", "count": 3700000 },
-      { "name": "4 star", "count": 5550000 },
-      { "name": "5 star", "count": 5550000 }
-    ]
-  },
-  {
-    "image": "/Apps/outlook.png",
-    "title": "Microsoft Outlook",
-    "companyName": "Microsoft Corporation",
-    "id": 30,
-    "description": "Email and calendar app. Manage your email, schedule, and contacts efficiently.",
-    "size": 145.3,
-    "reviews": 15500000,
-    "ratingAvg": 4.4,
-    "downloads": 1200000000,
-    "ratings": [
-      { "name": "1 star", "count": 1550000 },
-      { "name": "2 star", "count": 1550000 },
-      { "name": "3 star", "count": 3100000 },
-      { "name": "4 star", "count": 4650000 },
-      { "name": "5 star", "count": 4650000 }
-    ]
-  },
-  {
-    "image": "/Apps/google-drive.png",
-    "title": "Google Drive",
-    "companyName": "Google LLC",
-    "id": 31,
-    "description": "Cloud storage and file backup. Access your files anywhere, anytime.",
-    "size": 67.8,
-    "reviews": 42000000,
-    "ratingAvg": 4.5,
-    "downloads": 5500000000,
-    "ratings": [
-      { "name": "1 star", "count": 4200000 },
-      { "name": "2 star", "count": 4200000 },
-      { "name": "3 star", "count": 8400000 },
-      { "name": "4 star", "count": 12600000 },
-      { "name": "5 star", "count": 12600000 }
-    ]
-  },
-  {
-    "image": "/Apps/dropbox.png",
-    "title": "Dropbox",
-    "companyName": "Dropbox Inc.",
-    "id": 32,
-    "description": "Cloud storage and file synchronization. Keep your files safe and accessible.",
-    "size": 89.2,
-    "reviews": 18500000,
-    "ratingAvg": 4.4,
-    "downloads": 1850000000,
-    "ratings": [
-      { "name": "1 star", "count": 1850000 },
-      { "name": "2 star", "count": 1850000 },
-      { "name": "3 star", "count": 3700000 },
-      { "name": "4 star", "count": 5550000 },
-      { "name": "5 star", "count": 5550000 }
-    ]
-  },
-  {
-    "image": "/Apps/chatgpt.png",
-    "title": "ChatGPT",
-    "companyName": "OpenAI",
-    "id": 33,
-    "description": "AI-powered conversational assistant. Get answers, generate content, and boost productivity.",
-    "size": 45.3,
-    "reviews": 8500000,
-    "ratingAvg": 4.7,
-    "downloads": 850000000,
-    "ratings": [
-      { "name": "1 star", "count": 850000 },
-      { "name": "2 star", "count": 850000 },
-      { "name": "3 star", "count": 1700000 },
-      { "name": "4 star", "count": 2550000 },
-      { "name": "5 star", "count": 2550000 }
-    ]
-  },
-  {
-    "image": "/Apps/microsoft-365-copilot-seeklogo.png",
-    "title": "Microsoft 365 Copilot",
-    "companyName": "Microsoft Corporation",
-    "id": 34,
-    "description": "AI assistant for Microsoft 365. Boost your productivity with intelligent assistance.",
-    "size": 234.7,
-    "reviews": 2100000,
-    "ratingAvg": 4.5,
-    "downloads": 185000000,
-    "ratings": [
-      { "name": "1 star", "count": 210000 },
-      { "name": "2 star", "count": 210000 },
-      { "name": "3 star", "count": 420000 },
-      { "name": "4 star", "count": 630000 },
-      { "name": "5 star", "count": 630000 }
-    ]
-  },
-  {
-    "image": "/Apps/microsoft.png",
-    "title": "Microsoft 365",
-    "companyName": "Microsoft Corporation",
-    "id": 35,
-    "description": "Office suite with Word, Excel, PowerPoint, and more. Productivity apps for everyone.",
-    "size": 2345.6,
-    "reviews": 28000000,
-    "ratingAvg": 4.5,
-    "downloads": 2100000000,
-    "ratings": [
-      { "name": "1 star", "count": 2800000 },
-      { "name": "2 star", "count": 2800000 },
-      { "name": "3 star", "count": 5600000 },
-      { "name": "4 star", "count": 8400000 },
-      { "name": "5 star", "count": 8400000 }
-    ]
-  },
-  {
-    "image": "/Apps/window.png",
-    "title": "Windows 11",
-    "companyName": "Microsoft Corporation",
-    "id": 36,
-    "description": "The latest Windows operating system. Beautiful design with powerful features.",
-    "size": 5678.9,
-    "reviews": 38000000,
-    "ratingAvg": 4.3,
-    "downloads": 1500000000,
-    "ratings": [
-      { "name": "1 star", "count": 3800000 },
-      { "name": "2 star", "count": 3800000 },
-      { "name": "3 star", "count": 7600000 },
-      { "name": "4 star", "count": 11400000 },
-      { "name": "5 star", "count": 11400000 }
-    ]
-  },
-  {
-    "image": "/Apps/linkedin.png",
-    "title": "LinkedIn",
-    "companyName": "Microsoft Corporation",
-    "id": 37,
-    "description": "Professional networking platform. Connect with colleagues and grow your career.",
-    "size": 78.4,
-    "reviews": 32000000,
-    "ratingAvg": 4.4,
-    "downloads": 2800000000,
-    "ratings": [
-      { "name": "1 star", "count": 3200000 },
-      { "name": "2 star", "count": 3200000 },
-      { "name": "3 star", "count": 6400000 },
-      { "name": "4 star", "count": 9600000 },
-      { "name": "5 star", "count": 9600000 }
-    ]
-  },
-  {
-    "image": "/Apps/x-social-media-round-icon.png",
-    "title": "X (Twitter)",
-    "companyName": "X Corp.",
-    "id": 38,
-    "description": "Social media platform for real-time updates. Share thoughts and connect globally.",
-    "size": 56.8,
-    "reviews": 48000000,
-    "ratingAvg": 3.9,
-    "downloads": 3500000000,
-    "ratings": [
-      { "name": "1 star", "count": 4800000 },
-      { "name": "2 star", "count": 4800000 },
-      { "name": "3 star", "count": 9600000 },
-      { "name": "4 star", "count": 14400000 },
-      { "name": "5 star", "count": 14400000 }
-    ]
-  },
-  {
-    "image": "/Apps/reddit-icon.png",
-    "title": "Reddit",
-    "companyName": "Reddit Inc.",
-    "id": 39,
-    "description": "The front page of the internet. Join communities and discuss anything.",
-    "size": 67.9,
-    "reviews": 22000000,
-    "ratingAvg": 4.4,
-    "downloads": 1850000000,
-    "ratings": [
-      { "name": "1 star", "count": 2200000 },
-      { "name": "2 star", "count": 2200000 },
-      { "name": "3 star", "count": 4400000 },
-      { "name": "4 star", "count": 6600000 },
-      { "name": "5 star", "count": 6600000 }
-    ]
-  },
-  {
-    "image": "/Apps/pinterest-round-color-icon.png",
-    "title": "Pinterest",
-    "companyName": "Pinterest Inc.",
-    "id": 40,
-    "description": "Discover and save creative ideas. Find inspiration for your next project.",
-    "size": 45.2,
-    "reviews": 28000000,
-    "ratingAvg": 4.5,
-    "downloads": 2500000000,
-    "ratings": [
-      { "name": "1 star", "count": 2800000 },
-      { "name": "2 star", "count": 2800000 },
-      { "name": "3 star", "count": 5600000 },
-      { "name": "4 star", "count": 8400000 },
-      { "name": "5 star", "count": 8400000 }
-    ]
-  },
-  {
-    "image": "/Apps/twitch-color-icon.png",
-    "title": "Twitch",
-    "companyName": "Amazon.com Inc.",
-    "id": 41,
-    "description": "Live streaming platform for gamers. Watch, chat, and interact with streamers.",
-    "size": 89.7,
-    "reviews": 18500000,
-    "ratingAvg": 4.4,
-    "downloads": 1500000000,
-    "ratings": [
-      { "name": "1 star", "count": 1850000 },
-      { "name": "2 star", "count": 1850000 },
-      { "name": "3 star", "count": 3700000 },
-      { "name": "4 star", "count": 5550000 },
-      { "name": "5 star", "count": 5550000 }
-    ]
-  },
-  {
-    "image": "/Apps/soundcloud.png",
-    "title": "SoundCloud",
-    "companyName": "SoundCloud Global Limited",
-    "id": 42,
-    "description": "Music streaming and audio platform. Discover emerging artists and trending tracks.",
-    "size": 52.3,
-    "reviews": 12500000,
-    "ratingAvg": 4.3,
-    "downloads": 850000000,
-    "ratings": [
-      { "name": "1 star", "count": 1250000 },
-      { "name": "2 star", "count": 1250000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 3750000 },
-      { "name": "5 star", "count": 3750000 }
-    ]
-  },
-  {
-    "image": "/Apps/behance.png",
-    "title": "Behance",
-    "companyName": "Adobe Inc.",
-    "id": 43,
-    "description": "Showcase and discover creative work. Platform for designers and artists.",
-    "size": 38.9,
-    "reviews": 5600000,
-    "ratingAvg": 4.5,
-    "downloads": 420000000,
-    "ratings": [
-      { "name": "1 star", "count": 560000 },
-      { "name": "2 star", "count": 560000 },
-      { "name": "3 star", "count": 1120000 },
-      { "name": "4 star", "count": 1680000 },
-      { "name": "5 star", "count": 1680000 }
-    ]
-  },
-  {
-    "image": "/Apps/amazon-icon.png",
-    "title": "Amazon Shopping",
-    "companyName": "Amazon.com Inc.",
-    "id": 44,
-    "description": "Online shopping marketplace. Shop millions of products with fast delivery.",
-    "size": 78.5,
-    "reviews": 65000000,
-    "ratingAvg": 4.5,
-    "downloads": 7500000000,
-    "ratings": [
-      { "name": "1 star", "count": 6500000 },
-      { "name": "2 star", "count": 6500000 },
-      { "name": "3 star", "count": 13000000 },
-      { "name": "4 star", "count": 19500000 },
-      { "name": "5 star", "count": 19500000 }
-    ]
-  },
-  {
-    "image": "/Apps/uber.png",
-    "title": "Uber",
-    "companyName": "Uber Technologies Inc.",
-    "id": 45,
-    "description": "Ride-hailing and food delivery service. Get a ride or order food in minutes.",
-    "size": 89.4,
-    "reviews": 42000000,
-    "ratingAvg": 4.3,
-    "downloads": 3800000000,
-    "ratings": [
-      { "name": "1 star", "count": 4200000 },
-      { "name": "2 star", "count": 4200000 },
-      { "name": "3 star", "count": 8400000 },
-      { "name": "4 star", "count": 12600000 },
-      { "name": "5 star", "count": 12600000 }
-    ]
-  },
-  {
-    "image": "/Apps/paypal.png",
-    "title": "PayPal",
-    "companyName": "PayPal Holdings Inc.",
-    "id": 46,
-    "description": "Digital payment platform. Send money and shop online securely.",
-    "size": 67.2,
-    "reviews": 35000000,
-    "ratingAvg": 4.4,
-    "downloads": 2800000000,
-    "ratings": [
-      { "name": "1 star", "count": 3500000 },
-      { "name": "2 star", "count": 3500000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 10500000 },
-      { "name": "5 star", "count": 10500000 }
-    ]
-  },
-  {
-    "image": "/Apps/bkash.png",
-    "title": "bKash",
-    "companyName": "bKash Limited",
-    "id": 47,
-    "description": "Mobile financial service. Send money, pay bills, and shop online in Bangladesh.",
-    "size": 34.6,
-    "reviews": 8500000,
-    "ratingAvg": 4.2,
-    "downloads": 650000000,
-    "ratings": [
-      { "name": "1 star", "count": 850000 },
-      { "name": "2 star", "count": 850000 },
-      { "name": "3 star", "count": 1700000 },
-      { "name": "4 star", "count": 2550000 },
-      { "name": "5 star", "count": 2550000 }
-    ]
-  },
-  {
-    "image": "/Apps/player.png",
-    "title": "VLC Media Player",
-    "companyName": "VideoLAN",
-    "id": 48,
-    "description": "Free multimedia player. Play any video or audio file format.",
-    "size": 45.8,
-    "reviews": 28000000,
-    "ratingAvg": 4.7,
-    "downloads": 3500000000,
-    "ratings": [
-      { "name": "1 star", "count": 2800000 },
-      { "name": "2 star", "count": 2800000 },
-      { "name": "3 star", "count": 5600000 },
-      { "name": "4 star", "count": 8400000 },
-      { "name": "5 star", "count": 8400000 }
-    ]
-  },
-  {
-    "image": "/Apps/todoist-icon.png",
-    "title": "Todoist",
-    "companyName": "Doist Inc.",
-    "id": 49,
-    "description": "Task manager and to-do list app. Organize your work and life efficiently.",
-    "size": 28.4,
-    "reviews": 5600000,
-    "ratingAvg": 4.6,
-    "downloads": 420000000,
-    "ratings": [
-      { "name": "1 star", "count": 560000 },
-      { "name": "2 star", "count": 560000 },
-      { "name": "3 star", "count": 1120000 },
-      { "name": "4 star", "count": 1680000 },
-      { "name": "5 star", "count": 1680000 }
-    ]
-  },
-  {
-    "image": "/Apps/proton-vpn-icon.png",
-    "title": "Proton VPN",
-    "companyName": "Proton AG",
-    "id": 50,
-    "description": "Secure VPN service. Browse privately and protect your online privacy.",
-    "size": 56.7,
-    "reviews": 4200000,
-    "ratingAvg": 4.5,
-    "downloads": 280000000,
-    "ratings": [
-      { "name": "1 star", "count": 420000 },
-      { "name": "2 star", "count": 420000 },
-      { "name": "3 star", "count": 840000 },
-      { "name": "4 star", "count": 1260000 },
-      { "name": "5 star", "count": 1260000 }
-    ]
-  },
-  {
-    "image": "/Apps/ShareX_Logo.png",
-    "title": "ShareX",
-    "companyName": "ShareX Team",
-    "id": 51,
-    "description": "Screen capture and sharing tool. Capture, annotate, and share screenshots effortlessly.",
-    "size": 12.3,
-    "reviews": 1850000,
-    "ratingAvg": 4.8,
-    "downloads": 125000000,
-    "ratings": [
-      { "name": "1 star", "count": 185000 },
-      { "name": "2 star", "count": 185000 },
-      { "name": "3 star", "count": 370000 },
-      { "name": "4 star", "count": 555000 },
-      { "name": "5 star", "count": 555000 }
-    ]
-  }
+    {
+        "image":  "/Apps/chrome.png",
+        "title":  "Google Chrome",
+        "companyName":  "Google LLC",
+        "id":  1,
+        "description":  "Fast, secure browser with built-in Google services. Browse with confidence and speed.",
+        "size":  95.5,
+        "reviews":  12500000,
+        "ratingAvg":  4.5,
+        "downloads":  5000000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  7750000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  3750000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  625000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  250000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  125000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/firefox.png",
+        "title":  "Firefox Browser",
+        "companyName":  "Mozilla",
+        "id":  2,
+        "description":  "Fast, private and safe web browser. Respect your privacy while browsing the internet.",
+        "size":  78.3,
+        "reviews":  8500000,
+        "ratingAvg":  4.4,
+        "downloads":  1500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  4335000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  3400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  510000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  170000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  85000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/vscode.svg",
+        "title":  "Visual Studio Code",
+        "companyName":  "Microsoft Corporation",
+        "id":  3,
+        "description":  "Powerful code editor with IntelliSense, debugging, and Git integration. Perfect for developers.",
+        "size":  125.7,
+        "reviews":  5600000,
+        "ratingAvg":  4.8,
+        "downloads":  850000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  3556000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1680000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  280000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  56000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  28000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/visual studio.svg",
+        "title":  "Visual Studio",
+        "companyName":  "Microsoft Corporation",
+        "id":  4,
+        "description":  "Comprehensive IDE for .NET and C++ development. Build, debug, and deploy applications efficiently.",
+        "size":  2456.8,
+        "reviews":  3200000,
+        "ratingAvg":  4.6,
+        "downloads":  450000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1504000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1280000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  320000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  64000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  32000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/JetBrains_IntelliJ_IDEA_Product_Icon.svg",
+        "title":  "IntelliJ IDEA",
+        "companyName":  "JetBrains",
+        "id":  5,
+        "description":  "Intelligent Java IDE with smart code completion. The best tool for Java development.",
+        "size":  845.2,
+        "reviews":  2100000,
+        "ratingAvg":  4.7,
+        "downloads":  280000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  987000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  840000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  210000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  42000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  21000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/PyCharm_Icon.svg",
+        "title":  "PyCharm",
+        "companyName":  "JetBrains",
+        "id":  6,
+        "description":  "Professional Python IDE for data science and web development. Code smarter, not harder.",
+        "size":  678.4,
+        "reviews":  1850000,
+        "ratingAvg":  4.6,
+        "downloads":  225000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  869500
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  740000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  185000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  37000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  18500
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/anaconda-python-distribution-icon.png",
+        "title":  "Anaconda",
+        "companyName":  "Anaconda Inc.",
+        "id":  7,
+        "description":  "Python distribution for data science and machine learning. Includes 1,500+ packages.",
+        "size":  3456.9,
+        "reviews":  980000,
+        "ratingAvg":  4.5,
+        "downloads":  125000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  460600
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  392000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  98000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  19600
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  9800
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/photoshop.png",
+        "title":  "Adobe Photoshop",
+        "companyName":  "Adobe Inc.",
+        "id":  8,
+        "description":  "Professional image editing software. Create stunning graphics and photos with industry-leading tools.",
+        "size":  1987.5,
+        "reviews":  7800000,
+        "ratingAvg":  4.6,
+        "downloads":  650000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  3666000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  3120000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  780000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  156000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  78000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/illustrator.png",
+        "title":  "Adobe Illustrator",
+        "companyName":  "Adobe Inc.",
+        "id":  9,
+        "description":  "Vector graphics editor for logos, icons, and illustrations. Industry-standard design software.",
+        "size":  1756.3,
+        "reviews":  4200000,
+        "ratingAvg":  4.5,
+        "downloads":  420000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1974000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1680000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  420000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  84000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  42000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/premiere-pro.png",
+        "title":  "Adobe Premiere Pro",
+        "companyName":  "Adobe Inc.",
+        "id":  10,
+        "description":  "Professional video editing software. Create stunning videos with powerful editing tools.",
+        "size":  2134.6,
+        "reviews":  5600000,
+        "ratingAvg":  4.6,
+        "downloads":  480000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  2632000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  2240000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  560000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  112000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  56000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/after-effects.png",
+        "title":  "Adobe After Effects",
+        "companyName":  "Adobe Inc.",
+        "id":  11,
+        "description":  "Motion graphics and visual effects software. Bring your creative vision to life.",
+        "size":  2045.8,
+        "reviews":  3900000,
+        "ratingAvg":  4.5,
+        "downloads":  360000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1833000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1560000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  390000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  78000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  39000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/xd.png",
+        "title":  "Adobe XD",
+        "companyName":  "Adobe Inc.",
+        "id":  12,
+        "description":  "UI/UX design and prototyping tool. Design, prototype, and share user experiences.",
+        "size":  456.7,
+        "reviews":  2800000,
+        "ratingAvg":  4.4,
+        "downloads":  310000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1316000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1120000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  280000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  56000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  28000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/indesign.png",
+        "title":  "Adobe InDesign",
+        "companyName":  "Adobe Inc.",
+        "id":  13,
+        "description":  "Desktop publishing software for print and digital media. Create beautiful layouts and designs.",
+        "size":  1234.5,
+        "reviews":  2100000,
+        "ratingAvg":  4.5,
+        "downloads":  240000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  987000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  840000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  210000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  42000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  21000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/photoshop-lightroom.png",
+        "title":  "Adobe Lightroom",
+        "companyName":  "Adobe Inc.",
+        "id":  14,
+        "description":  "Photo editing and organization software. Perfect for photographers and content creators.",
+        "size":  987.3,
+        "reviews":  5200000,
+        "ratingAvg":  4.6,
+        "downloads":  520000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  2444000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  2080000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  520000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  104000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  52000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/acrobat.png",
+        "title":  "Adobe Acrobat",
+        "companyName":  "Adobe Inc.",
+        "id":  15,
+        "description":  "PDF creator, editor, and reader. Work with PDFs like never before.",
+        "size":  678.9,
+        "reviews":  9800000,
+        "ratingAvg":  4.3,
+        "downloads":  1200000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  4606000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  3920000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  980000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  196000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  98000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/512px-DaVinci_Resolve_Studio.png",
+        "title":  "DaVinci Resolve",
+        "companyName":  "Blackmagic Design",
+        "id":  16,
+        "description":  "Professional video editing, color correction, and audio post-production. Hollywood-grade software.",
+        "size":  3567.4,
+        "reviews":  1850000,
+        "ratingAvg":  4.7,
+        "downloads":  145000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  869500
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  740000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  185000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  37000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  18500
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/capcut.png",
+        "title":  "CapCut",
+        "companyName":  "Bytedance",
+        "id":  17,
+        "description":  "Free video editing app with powerful features. Create viral content with ease.",
+        "size":  234.6,
+        "reviews":  18500000,
+        "ratingAvg":  4.7,
+        "downloads":  2500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  8695000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  7400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  1850000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  370000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  185000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/canva-icon.png",
+        "title":  "Canva",
+        "companyName":  "Canva Pty Ltd",
+        "id":  18,
+        "description":  "Graphic design made easy. Create stunning designs with drag-and-drop simplicity.",
+        "size":  156.8,
+        "reviews":  25000000,
+        "ratingAvg":  4.8,
+        "downloads":  3500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  11750000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  10000000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  2500000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  500000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  250000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/facebook.png",
+        "title":  "Facebook",
+        "companyName":  "Meta Platforms Inc.",
+        "id":  19,
+        "description":  "Connect with friends and family. Share photos, videos, and stay updated.",
+        "size":  89.4,
+        "reviews":  85000000,
+        "ratingAvg":  3.8,
+        "downloads":  10000000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  25500000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  25500000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  17000000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  8500000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  8500000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/instagram.png",
+        "title":  "Instagram",
+        "companyName":  "Meta Platforms Inc.",
+        "id":  20,
+        "description":  "Share photos and videos with friends. Discover content from creators worldwide.",
+        "size":  67.3,
+        "reviews":  120000000,
+        "ratingAvg":  4.2,
+        "downloads":  8000000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  36000000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  36000000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  24000000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  12000000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  12000000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/whatsapp.png",
+        "title":  "WhatsApp",
+        "companyName":  "Meta Platforms Inc.",
+        "id":  21,
+        "description":  "Simple, secure messaging and calling. Connect with anyone, anywhere in the world.",
+        "size":  54.2,
+        "reviews":  95000000,
+        "ratingAvg":  4.4,
+        "downloads":  12000000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  28500000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  28500000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  19000000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  9500000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  9500000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/youtube.png",
+        "title":  "YouTube",
+        "companyName":  "Google LLC",
+        "id":  22,
+        "description":  "Watch, create, and share videos. The world\u0027s largest video platform.",
+        "size":  112.5,
+        "reviews":  145000000,
+        "ratingAvg":  4.3,
+        "downloads":  15000000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  43500000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  43500000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  29000000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  14500000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  14500000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/netflix.png",
+        "title":  "Netflix",
+        "companyName":  "Netflix Inc.",
+        "id":  23,
+        "description":  "Watch TV shows and movies. Unlimited streaming of thousands of titles.",
+        "size":  78.9,
+        "reviews":  42000000,
+        "ratingAvg":  4.5,
+        "downloads":  3500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  12600000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  12600000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  4200000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  4200000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/spotify.png",
+        "title":  "Spotify",
+        "companyName":  "Spotify AB",
+        "id":  24,
+        "description":  "Music and podcasts streaming service. Millions of songs at your fingertips.",
+        "size":  45.6,
+        "reviews":  38000000,
+        "ratingAvg":  4.4,
+        "downloads":  4200000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  11400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  11400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  7600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  3800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  3800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/discord.png",
+        "title":  "Discord",
+        "companyName":  "Discord Inc.",
+        "id":  25,
+        "description":  "Chat, talk, and hang out. Your place to talk with communities and friends.",
+        "size":  92.3,
+        "reviews":  28000000,
+        "ratingAvg":  4.6,
+        "downloads":  1500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  5600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  2800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  2800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/telegram-icon.png",
+        "title":  "Telegram",
+        "companyName":  "Telegram FZ-LLC",
+        "id":  26,
+        "description":  "Fast, secure messaging app. Cloud-based with powerful features.",
+        "size":  56.7,
+        "reviews":  32000000,
+        "ratingAvg":  4.5,
+        "downloads":  2800000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  9600000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  9600000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  6400000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  3200000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  3200000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/slack-icon.png",
+        "title":  "Slack",
+        "companyName":  "Slack Technologies",
+        "id":  27,
+        "description":  "Team collaboration and messaging platform. Where work happens.",
+        "size":  134.2,
+        "reviews":  8500000,
+        "ratingAvg":  4.5,
+        "downloads":  650000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  2550000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  2550000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  1700000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  850000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  850000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/Teams.png",
+        "title":  "Microsoft Teams",
+        "companyName":  "Microsoft Corporation",
+        "id":  28,
+        "description":  "Chat, meet, call, and collaborate. All in one place for teamwork.",
+        "size":  156.8,
+        "reviews":  12500000,
+        "ratingAvg":  4.3,
+        "downloads":  980000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  3750000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  3750000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  2500000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  1250000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  1250000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/zoom.png",
+        "title":  "Zoom",
+        "companyName":  "Zoom Video Communications",
+        "id":  29,
+        "description":  "Video conferencing and messaging. Connect from anywhere on any device.",
+        "size":  98.4,
+        "reviews":  18500000,
+        "ratingAvg":  4.4,
+        "downloads":  1850000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  5550000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  5550000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  3700000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  1850000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  1850000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/outlook.png",
+        "title":  "Microsoft Outlook",
+        "companyName":  "Microsoft Corporation",
+        "id":  30,
+        "description":  "Email and calendar app. Manage your email, schedule, and contacts efficiently.",
+        "size":  145.3,
+        "reviews":  15500000,
+        "ratingAvg":  4.4,
+        "downloads":  1200000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  4650000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  4650000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  3100000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  1550000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  1550000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/google-drive.png",
+        "title":  "Google Drive",
+        "companyName":  "Google LLC",
+        "id":  31,
+        "description":  "Cloud storage and file backup. Access your files anywhere, anytime.",
+        "size":  67.8,
+        "reviews":  42000000,
+        "ratingAvg":  4.5,
+        "downloads":  5500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  12600000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  12600000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  4200000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  4200000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/dropbox.png",
+        "title":  "Dropbox",
+        "companyName":  "Dropbox Inc.",
+        "id":  32,
+        "description":  "Cloud storage and file synchronization. Keep your files safe and accessible.",
+        "size":  89.2,
+        "reviews":  18500000,
+        "ratingAvg":  4.4,
+        "downloads":  1850000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  5550000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  5550000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  3700000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  1850000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  1850000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/chatgpt.png",
+        "title":  "ChatGPT",
+        "companyName":  "OpenAI",
+        "id":  33,
+        "description":  "AI-powered conversational assistant. Get answers, generate content, and boost productivity.",
+        "size":  45.3,
+        "reviews":  8500000,
+        "ratingAvg":  4.7,
+        "downloads":  850000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  2550000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  2550000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  1700000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  850000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  850000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/microsoft-365-copilot-seeklogo.png",
+        "title":  "Microsoft 365 Copilot",
+        "companyName":  "Microsoft Corporation",
+        "id":  34,
+        "description":  "AI assistant for Microsoft 365. Boost your productivity with intelligent assistance.",
+        "size":  234.7,
+        "reviews":  2100000,
+        "ratingAvg":  4.5,
+        "downloads":  185000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  630000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  630000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  420000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  210000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  210000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/microsoft.png",
+        "title":  "Microsoft 365",
+        "companyName":  "Microsoft Corporation",
+        "id":  35,
+        "description":  "Office suite with Word, Excel, PowerPoint, and more. Productivity apps for everyone.",
+        "size":  2345.6,
+        "reviews":  28000000,
+        "ratingAvg":  4.5,
+        "downloads":  2100000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  5600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  2800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  2800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/window.png",
+        "title":  "Windows 11",
+        "companyName":  "Microsoft Corporation",
+        "id":  36,
+        "description":  "The latest Windows operating system. Beautiful design with powerful features.",
+        "size":  5678.9,
+        "reviews":  38000000,
+        "ratingAvg":  4.3,
+        "downloads":  1500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  11400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  11400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  7600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  3800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  3800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/linkedin.png",
+        "title":  "LinkedIn",
+        "companyName":  "Microsoft Corporation",
+        "id":  37,
+        "description":  "Professional networking platform. Connect with colleagues and grow your career.",
+        "size":  78.4,
+        "reviews":  32000000,
+        "ratingAvg":  4.4,
+        "downloads":  2800000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  9600000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  9600000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  6400000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  3200000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  3200000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/x-social-media-round-icon.png",
+        "title":  "X (Twitter)",
+        "companyName":  "X Corp.",
+        "id":  38,
+        "description":  "Social media platform for real-time updates. Share thoughts and connect globally.",
+        "size":  56.8,
+        "reviews":  48000000,
+        "ratingAvg":  3.9,
+        "downloads":  3500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  14400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  14400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  9600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  4800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  4800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/reddit-icon.png",
+        "title":  "Reddit",
+        "companyName":  "Reddit Inc.",
+        "id":  39,
+        "description":  "The front page of the internet. Join communities and discuss anything.",
+        "size":  67.9,
+        "reviews":  22000000,
+        "ratingAvg":  4.4,
+        "downloads":  1850000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  6600000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  6600000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  4400000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  2200000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  2200000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/pinterest-round-color-icon.png",
+        "title":  "Pinterest",
+        "companyName":  "Pinterest Inc.",
+        "id":  40,
+        "description":  "Discover and save creative ideas. Find inspiration for your next project.",
+        "size":  45.2,
+        "reviews":  28000000,
+        "ratingAvg":  4.5,
+        "downloads":  2500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  5600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  2800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  2800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/twitch-color-icon.png",
+        "title":  "Twitch",
+        "companyName":  "Amazon.com Inc.",
+        "id":  41,
+        "description":  "Live streaming platform for gamers. Watch, chat, and interact with streamers.",
+        "size":  89.7,
+        "reviews":  18500000,
+        "ratingAvg":  4.4,
+        "downloads":  1500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  5550000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  5550000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  3700000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  1850000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  1850000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/soundcloud.png",
+        "title":  "SoundCloud",
+        "companyName":  "SoundCloud Global Limited",
+        "id":  42,
+        "description":  "Music streaming and audio platform. Discover emerging artists and trending tracks.",
+        "size":  52.3,
+        "reviews":  12500000,
+        "ratingAvg":  4.3,
+        "downloads":  850000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  3750000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  3750000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  2500000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  1250000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  1250000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/behance.png",
+        "title":  "Behance",
+        "companyName":  "Adobe Inc.",
+        "id":  43,
+        "description":  "Showcase and discover creative work. Platform for designers and artists.",
+        "size":  38.9,
+        "reviews":  5600000,
+        "ratingAvg":  4.5,
+        "downloads":  420000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1680000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1680000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  1120000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  560000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  560000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/amazon-icon.png",
+        "title":  "Amazon Shopping",
+        "companyName":  "Amazon.com Inc.",
+        "id":  44,
+        "description":  "Online shopping marketplace. Shop millions of products with fast delivery.",
+        "size":  78.5,
+        "reviews":  65000000,
+        "ratingAvg":  4.5,
+        "downloads":  7500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  19500000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  19500000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  13000000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  6500000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  6500000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/uber.png",
+        "title":  "Uber",
+        "companyName":  "Uber Technologies Inc.",
+        "id":  45,
+        "description":  "Ride-hailing and food delivery service. Get a ride or order food in minutes.",
+        "size":  89.4,
+        "reviews":  42000000,
+        "ratingAvg":  4.3,
+        "downloads":  3800000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  12600000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  12600000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  4200000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  4200000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/paypal.png",
+        "title":  "PayPal",
+        "companyName":  "PayPal Holdings Inc.",
+        "id":  46,
+        "description":  "Digital payment platform. Send money and shop online securely.",
+        "size":  67.2,
+        "reviews":  35000000,
+        "ratingAvg":  4.4,
+        "downloads":  2800000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  10500000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  10500000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  7000000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  3500000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  3500000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/bkash.png",
+        "title":  "bKash",
+        "companyName":  "bKash Limited",
+        "id":  47,
+        "description":  "Mobile financial service. Send money, pay bills, and shop online in Bangladesh.",
+        "size":  34.6,
+        "reviews":  8500000,
+        "ratingAvg":  4.2,
+        "downloads":  650000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  2550000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  2550000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  1700000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  850000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  850000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/player.png",
+        "title":  "VLC Media Player",
+        "companyName":  "VideoLAN",
+        "id":  48,
+        "description":  "Free multimedia player. Play any video or audio file format.",
+        "size":  45.8,
+        "reviews":  28000000,
+        "ratingAvg":  4.7,
+        "downloads":  3500000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  8400000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  5600000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  2800000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  2800000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/todoist-icon.png",
+        "title":  "Todoist",
+        "companyName":  "Doist Inc.",
+        "id":  49,
+        "description":  "Task manager and to-do list app. Organize your work and life efficiently.",
+        "size":  28.4,
+        "reviews":  5600000,
+        "ratingAvg":  4.6,
+        "downloads":  420000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1680000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1680000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  1120000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  560000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  560000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/proton-vpn-icon.png",
+        "title":  "Proton VPN",
+        "companyName":  "Proton AG",
+        "id":  50,
+        "description":  "Secure VPN service. Browse privately and protect your online privacy.",
+        "size":  56.7,
+        "reviews":  4200000,
+        "ratingAvg":  4.5,
+        "downloads":  280000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  1260000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  1260000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  840000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  420000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  420000
+                        }
+                    ]
+    },
+    {
+        "image":  "/Apps/ShareX_Logo.png",
+        "title":  "ShareX",
+        "companyName":  "ShareX Team",
+        "id":  51,
+        "description":  "Screen capture and sharing tool. Capture, annotate, and share screenshots effortlessly.",
+        "size":  12.3,
+        "reviews":  1850000,
+        "ratingAvg":  4.8,
+        "downloads":  125000000,
+        "ratings":  [
+                        {
+                            "name":  "5 star",
+                            "count":  555000
+                        },
+                        {
+                            "name":  "4 star",
+                            "count":  555000
+                        },
+                        {
+                            "name":  "3 star",
+                            "count":  370000
+                        },
+                        {
+                            "name":  "2 star",
+                            "count":  185000
+                        },
+                        {
+                            "name":  "1 star",
+                            "count":  185000
+                        }
+                    ]
+    }
 ]
