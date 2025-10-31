@@ -3,7 +3,7 @@
 # 📱 About The Project
 
 A modern web-based app store where users can browse, search, and install their favorite applications.
-
+This is a project of Web Development course at Programming Hero built by Ahmad Zubayer.
 # ✨ Key Features
 
 - **Browse All Apps**: View a complete catalog of available applications with beautiful cards
@@ -46,8 +46,6 @@ hero-app-store/
 │   │
 │   ├── components/
 │   │   │
-│   │   ├── root/
-│   │   │   └── Root.jsx           # Layout wrapper (currently unused)
 │   │   │
 │   │   ├── pages/                 # Route Pages (render in <Outlet />)
 │   │   │   ├── Home.jsx           # "/" - Landing page
@@ -123,7 +121,7 @@ App.jsx (Root Layout: <Nav> + <Outlet> + <Footer>)
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   PUBLIC/APP-LIST.JSON                      │
-│                   (Source of Truth)                         │
+│                               │
 └─────────────────────┬───────────────────────────────────────┘
                       │
                       │ Axios.get('/app-list.json')
@@ -174,7 +172,7 @@ App.jsx (Root Layout: <Nav> + <Outlet> + <Footer>)
 ┌─────────────────────────────────────────────────────────────┐
 │                    LOCALSTORAGE                             │
 │         Key: 'installedApps'                                │
-│         Value: [1, 5, 12, 23] (array of app IDs)           │
+│         Value: [1, 5, 12, 23] (array of app IDs)            │
 └─────────────────────┬───────────────────────────────────────┘
                       │
                       ↓
@@ -192,43 +190,6 @@ App.jsx (Root Layout: <Nav> + <Outlet> + <Footer>)
 │  - Add app ID     │     │  - Remove app ID     │
 │  - setInstalled() │     │  - onUninstall()     │
 └───────────────────┘     └──────────────────────┘
-```
-
----
-
-###  Parent-Child Component Communication
-
-#### **Install Flow**
-```
-AppDetailsPage.jsx (Route Component)
-    ↓ passes {app} prop
-AppDetails.jsx (Logic Component)
-    ├── useState(installed) → Manages UI state
-    ├── handleInstall() → Updates localStorage
-    └── Button (disabled={installed})
-```
-
-#### **Uninstall Flow (Callback Pattern)**
-```
-InstalledAppsPage.jsx
-    ↓ passes {appData} prop
-InstalledApps.jsx (Parent - Manages List State)
-    ├── useState(installedAppIds) → Tracks installed IDs
-    ├── handleRefresh() → Re-reads localStorage
-    │   ↓ passes as {onUninstall} callback prop
-    └── InstalledAppCard.jsx (Child)
-        ├── handleUninstall() → Removes from localStorage
-        └── Calls onUninstall() → Parent refreshes list
-```
-
-#### **Search Flow**
-```
-AllApps.jsx (Parent - Holds Search State)
-    ├── useState(searchTerm)
-    ├── Passes setSearchTerm to SearchApp.jsx
-    ├── Filters appData based on searchTerm
-    └── AllAppsContainer.jsx
-        └── Maps filtered apps to AppCard.jsx
 ```
 
 ---
