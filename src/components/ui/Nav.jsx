@@ -18,7 +18,7 @@ const Nav = () => {
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/allApps">Apps</NavLink>
-                        <NavLink to="/installedApps">Installaton</NavLink>
+                        <NavLink to="/installedApps">Installation</NavLink>
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost text-xl flex items-center gap-2">
@@ -30,7 +30,7 @@ const Nav = () => {
                 <ul className="menu menu-horizontal px-1 gap-10 text-xl font-bold">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/allApps">Apps</NavLink>
-                    <NavLink to="/installedApps">Installaton</NavLink>
+                    <NavLink to="/installedApps">Installation</NavLink>
                 </ul>
             </div>
             <div className="navbar-end">

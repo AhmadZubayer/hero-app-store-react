@@ -11,13 +11,11 @@ export const useInstalledApps = () => {
 };
 
 export const InstalledAppsProvider = ({ children }) => {
-    // Initialize from localStorage or empty array
     const [installedAppIds, setInstalledAppIds] = useState(() => {
         const saved = localStorage.getItem('installedApps');
         return saved ? JSON.parse(saved) : [];
     });
 
-    // Save to localStorage whenever installedAppIds changes
     useEffect(() => {
         localStorage.setItem('installedApps', JSON.stringify(installedAppIds));
     }, [installedAppIds]);
