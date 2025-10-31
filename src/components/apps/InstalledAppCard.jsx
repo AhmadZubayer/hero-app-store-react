@@ -10,6 +10,7 @@ const InstalledAppCard = ({ app, onUninstall }) => {
         localStorage.setItem('installedApps', JSON.stringify(installedApps));
         
         onUninstall();
+        
         toast.success(`${app.title} uninstalled successfully!`, {
             position: "top-center",
             autoClose: 3000,

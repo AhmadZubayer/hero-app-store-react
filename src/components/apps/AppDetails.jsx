@@ -10,26 +10,26 @@ const AppDetails = ({app}) => {
     
     const checkIfInstalled = (appId) => {
         const saved = localStorage.getItem('installedApps');
+        // checks if installedApps in localStorage has anything stored or not.
         const installedApps = saved ? JSON.parse(saved) : [];
+        // if stored, converts the data to array.
         return installedApps.includes(appId);
+        // retruns boolean value if that particular app ID is present at the array. 
     };
 
     const [installed, setInstalled] = useState(checkIfInstalled(app.id));
+    // initial install status is determined from the array. 
+    // useState() is used here to toggle UI changes. 
 
-    const handleToggleInstall = () => {
+    const handleInstall = () => {
         const saved = localStorage.getItem('installedApps');
         let installedApps = saved ? JSON.parse(saved) : [];
 
-        if (installed) {
-            installedApps = installedApps.filter(id => id !== app.id);
+        if (!installedApps.includes(app.id)) {
+            installedApps.push(app.id);
             localStorage.setItem('installedApps', JSON.stringify(installedApps));
-            setInstalled(false);
-        } else {
-            if (!installedApps.includes(app.id)) {
-                installedApps.push(app.id);
-                localStorage.setItem('installedApps', JSON.stringify(installedApps));
-            }
             setInstalled(true);
+
             toast.success(`${app.title} installed successfully!`, {
                 position: "top-center",
                 autoClose: 3000,
@@ -86,7 +86,7 @@ const AppDetails = ({app}) => {
                         </div>
 
                         <button 
-                            onClick={handleToggleInstall}
+                            onClick={handleInstall}
                             disabled={installed}
                             className="w-full md:w-auto bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
                         >
@@ -106,8 +106,8 @@ const AppDetails = ({app}) => {
                 </ResponsiveContainer>
                 </div>
                 <div>
-                    <h2 className="text-lg md:text-xl text-black font-bold mb-4">Description</h2>
-                    <p className='text-black text-sm md:text-md leading-relaxed'>{app.description}</p>
+                    <h2 className="text-xl text-black font-bold mb-4">Description</h2>
+                    <p className='text-black text-lg md:text-md leading-relaxed'>{app.description}</p>
 
 
                 </div>
