@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import AllAppsContainer from '../apps/AllAppsContainer';
 import SearchApp from '../apps/SearchApp';
 import AppNotFound from './AppNotFound';
+import Loading from '../ui/Loading';
 
 const AllApps = () => {
     const {appData} = useLoaderData();
@@ -44,13 +45,14 @@ const AllApps = () => {
                     </p>
                     <SearchApp 
                         searchTerm={searchTerm} 
-                        setSearchTerm={setSearchTerm} 
-                        isSearching={isSearching}
+                        setSearchTerm={setSearchTerm}
                     />
                 </div>
             </div>
             
-            {filteredApps.length === 0 ? (
+            {isSearching ? (
+                <Loading />
+            ) : filteredApps.length === 0 ? (
                 <AppNotFound />
             ) : (
                 <AllAppsContainer appsData={filteredApps}></AllAppsContainer>
