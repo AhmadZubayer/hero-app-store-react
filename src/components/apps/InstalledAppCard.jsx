@@ -1,12 +1,15 @@
 import React from 'react';
-import { useInstalledApps } from '../../contexts/InstalledAppsContext';
 import { toast } from 'react-toastify';
 
-const InstalledAppCard = ({ app }) => {
-    const { uninstallApp } = useInstalledApps();
+const InstalledAppCard = ({ app, onUninstall }) => {
 
     const handleUninstall = () => {
-        uninstallApp(app.id);
+        const saved = localStorage.getItem('installedApps');
+        let installedApps = saved ? JSON.parse(saved) : [];
+        installedApps = installedApps.filter(id => id !== app.id);
+        localStorage.setItem('installedApps', JSON.stringify(installedApps));
+        
+        onUninstall();
         toast.success(`${app.title} uninstalled successfully!`, {
             position: "top-center",
             autoClose: 3000,

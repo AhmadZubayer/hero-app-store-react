@@ -1,21 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
 import { BarChart, Legend, XAxis, YAxis, CartesianGrid, Tooltip, Bar, ResponsiveContainer } from 'recharts';
-import { useInstalledApps } from '../../contexts/InstalledAppsContext';
 import { toast } from 'react-toastify';
 
 const AppDetails = ({app}) => {
     const chartData = app.ratings;
-    const { isInstalled, installApp, uninstallApp } = useInstalledApps();
-    const installed = isInstalled(app.id);
+    
+    const checkIfInstalled = (appId) => {
+        const saved = localStorage.getItem('installedApps');
+        const installedApps = saved ? JSON.parse(saved) : [];
+        return installedApps.includes(appId);
+    };
+
+    const [installed, setInstalled] = useState(checkIfInstalled(app.id));
 
     const handleToggleInstall = () => {
+        const saved = localStorage.getItem('installedApps');
+        let installedApps = saved ? JSON.parse(saved) : [];
+
         if (installed) {
-            uninstallApp(app.id);
+            installedApps = installedApps.filter(id => id !== app.id);
+            localStorage.setItem('installedApps', JSON.stringify(installedApps));
+            setInstalled(false);
         } else {
-            installApp(app.id);
+            if (!installedApps.includes(app.id)) {
+                installedApps.push(app.id);
+                localStorage.setItem('installedApps', JSON.stringify(installedApps));
+            }
+            setInstalled(true);
             toast.success(`${app.title} installed successfully!`, {
                 position: "top-center",
                 autoClose: 3000,

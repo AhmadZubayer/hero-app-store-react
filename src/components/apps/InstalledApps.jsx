@@ -1,10 +1,18 @@
 import React, { useState } from 'react';
-import { useInstalledApps } from '../../contexts/InstalledAppsContext';
 import InstalledAppCard from './InstalledAppCard';
 
 const InstalledApps = ({ appData }) => {
-    const { installedAppIds } = useInstalledApps();
+    const getInstalledAppsFromStorage = () => {
+        const saved = localStorage.getItem('installedApps');
+        return saved ? JSON.parse(saved) : [];
+    };
+
+    const [installedAppIds, setInstalledAppIds] = useState(getInstalledAppsFromStorage());
     const [sortType, setSortType] = useState('default');
+
+    const handleRefresh = () => {
+        setInstalledAppIds(getInstalledAppsFromStorage());
+    };
 
     const installedApps = appData.filter(app => installedAppIds.includes(app.id));
 
@@ -64,7 +72,7 @@ const InstalledApps = ({ appData }) => {
                 </div>
             ) : (
                 <div className="space-y-4">
-                    {sortedApps.map(app => <InstalledAppCard key={app.id} app={app} />)}
+                    {sortedApps.map(app => <InstalledAppCard key={app.id} app={app} onUninstall={handleRefresh} />)}
                 </div>
             )}
         </div>
