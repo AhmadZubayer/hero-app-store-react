@@ -44,14 +44,24 @@ const Footer = () => {
                     
                     <div className='space-y-3'>
                         <h3 className='text-xl font-bold mb-4'>Download Our App</h3>
-                        <button className='flex items-center gap-2 px-4 py-2 border-2 border-gray-600 rounded-lg hover:border-gray-400 transition w-full justify-center'>
+                        <a 
+                            href="https://play.google.com/store" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='flex items-center gap-2 px-4 py-2 border-2 border-gray-600 rounded-lg hover:border-gray-400 transition w-full justify-center cursor-pointer'
+                        >
                             <img src={googlePlay} alt="Google Play" className='w-6 h-6' />
                             <span className='font-medium'>Google Play</span>
-                        </button>
-                        <button className='flex items-center gap-2 px-4 py-2 border-2 border-gray-600 rounded-lg hover:border-gray-400 transition w-full justify-center'>
+                        </a>
+                        <a 
+                            href="https://www.apple.com/app-store/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='flex items-center gap-2 px-4 py-2 border-2 border-gray-600 rounded-lg hover:border-gray-400 transition w-full justify-center cursor-pointer'
+                        >
                             <img src={appStore} alt="App Store" className='w-6 h-6' />
                             <span className='font-medium'>App Store</span>
-                        </button>
+                        </a>
                     </div>
                 </div>
 

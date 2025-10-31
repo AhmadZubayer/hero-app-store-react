@@ -28,10 +28,10 @@ const AppDetails = ({app}) => {
     };
 
     return (
-        <div className="bg-gray-50 p-8">
-            <div className="bg-white rounded-2xl shadow-sm p-8 max-w-7xl mx-auto ">
-                <div className="flex gap-6">
-                    <div className="w-40 h-40 bg-white rounded-2xl shadow-md flex items-center justify-center p-4">
+        <div className="bg-gray-50 p-4 md:p-8">
+            <div className="bg-white rounded-2xl shadow-sm p-4 md:p-8 max-w-7xl mx-auto">
+                <div className="flex flex-col md:flex-row gap-4 md:gap-6">
+                    <div className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-2xl shadow-md flex items-center justify-center p-4 mx-auto md:mx-0">
                         <img 
                             src={app.image}
                             alt={app.title}
@@ -40,32 +40,32 @@ const AppDetails = ({app}) => {
                     </div>
 
                     <div className="flex-1">
-                        <h1 className="text-3xl font-bold text-gray-900 mb-2">{app.title}</h1>
-                        <p className="text-sm text-gray-600 mb-6">
+                        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 text-center md:text-left">{app.title}</h1>
+                        <p className="text-sm text-gray-600 mb-4 md:mb-6 text-center md:text-left">
                             Developed by <span className="text-blue-600">{app.companyName}</span>
                         </p>
                         
                     
 
-                        <div className="flex gap-8 mb-6 border-t border-b border-gray-200 py-4 my-6 max-w-xl">
-                            <div className="text-center">
+                        <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mb-6 border-t border-b border-gray-200 py-4 my-6">
+                            <div className="text-center flex-1">
                                 <img src={downloadIcon} alt="downloads" className="w-6 h-6 mx-auto mb-1" />
                                 <p className="text-xs text-gray-500 mb-1">Downloads</p>
-                                <p className="text-2xl font-bold text-gray-900">
+                                <p className="text-xl md:text-2xl font-bold text-gray-900">
                                     {app.downloads >= 1000000 ? `${(app.downloads / 1000000).toFixed(0)}M` : app.downloads}
                                 </p>
                             </div>
 
-                            <div className="text-center">
+                            <div className="text-center flex-1">
                                 <img src={ratingIcon} alt="rating" className="w-6 h-6 mx-auto mb-1" />
                                 <p className="text-xs text-gray-500 mb-1">Average Ratings</p>
-                                <p className="text-2xl font-bold text-gray-900">{app.ratingAvg}</p>
+                                <p className="text-xl md:text-2xl font-bold text-gray-900">{app.ratingAvg}</p>
                             </div>
 
-                            <div className="text-center">
+                            <div className="text-center flex-1">
                                 <img src={reviewIcon} alt="reviews" className="w-6 h-6 mx-auto mb-1" />
                                 <p className="text-xs text-gray-500 mb-1">Total Reviews</p>
-                                <p className="text-2xl font-bold text-gray-900">
+                                <p className="text-xl md:text-2xl font-bold text-gray-900">
                                     {app.reviews >= 1000 ? `${(app.reviews / 1000).toFixed(0)}K` : app.reviews}
                                 </p>
                             </div>
@@ -74,26 +74,26 @@ const AppDetails = ({app}) => {
                         <button 
                             onClick={handleToggleInstall}
                             disabled={installed}
-                            className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+                            className="w-full md:w-auto bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
                         >
                             {installed ? 'Installed' : `Install Now (${app.size} MB)`}
                         </button>
                     </div>
                 </div>
                 <div className='border-t border-b border-gray-200 py-4 my-6'>
-                    <h2 className="text-xl text-black font-bold mb-4">Ratings</h2>
+                    <h2 className="text-lg md:text-xl text-black font-bold mb-4">Ratings</h2>
                 
                 <ResponsiveContainer width="100%" height={200}>
                     <BarChart data={chartData} layout="vertical">
                         <XAxis type="number" />
-                        <YAxis type="category" dataKey="name" />
+                        <YAxis type="category" dataKey="name" width={60} />
                         <Bar dataKey="count" fill="#ff8800" radius={[0, 4, 4, 0]} />
                     </BarChart>
                 </ResponsiveContainer>
                 </div>
                 <div>
-                    <h2 className="text-xl text-black font-bold mb-4">Description</h2>
-                    <p className='text-black text-md'>{app.description}</p>
+                    <h2 className="text-lg md:text-xl text-black font-bold mb-4">Description</h2>
+                    <p className='text-black text-sm md:text-md leading-relaxed'>{app.description}</p>
 
 
                 </div>
