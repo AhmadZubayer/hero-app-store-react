@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router'
+import { createBrowserRouter, RouterProvider, redirect } from 'react-router'
 import page1 from './components/tests/page1.jsx'
 import page2 from './components/tests/page2.jsx'
 import page3 from './components/tests/page3.jsx'
@@ -39,6 +39,9 @@ const router = createBrowserRouter([
        loader : async({params}) => {
         const res = await axios.get('/app-list.json');
         const app = res.data.find((a)=> a.id == params.appId);
+        if (!app) {
+          return redirect('/app-not-found');
+        }
         return { app };
        },
        Component: AppDetailsPage

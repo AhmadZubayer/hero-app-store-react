@@ -1,8 +1,10 @@
 ## LIVE LINK:
 
+# **HERO APP STORE **
+
 # 📱 About The Project
 
-A modern web-based app store where users can browse, search, and install their favorite applications.
+Hero App Store, a modern web-based app store where users can browse, search, and install their favorite applications.
 This is a project of Web Development course at Programming Hero built by Ahmad Zubayer.
 # ✨ Key Features
 
