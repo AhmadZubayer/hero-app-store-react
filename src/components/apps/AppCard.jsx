@@ -13,13 +13,13 @@ const AppCard = ({ app }) => {
     return (
         <div 
             onClick={handleCardClick}
-            className="bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow w-[380px] h-[430px] flex flex-col cursor-pointer"
+            className="bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-all duration-300 w-[304px] h-[344px] flex flex-col cursor-pointer hover:scale-110"
         >
-            <div className="rounded-lg w-full h-[320px] mb-2 flex items-center justify-center overflow-hidden p-4">
+            <div className="rounded-lg w-full h-64 mb-2 flex items-center justify-center overflow-hidden p-4">
                 <img 
                     src={app.image} 
                     alt={app.title}
-                    className="max-w-[200px] max-h-[200px] w-auto h-auto object-contain"
+                    className="max-w-40 max-h-40 w-auto h-auto object-contain"
                 />
             </div>
             

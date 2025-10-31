@@ -6,11 +6,11 @@ import hero from '../../assets/hero.png';
 
 const Banner = () => {
     return (
-        <div className='flex flex-col justify-center items-center gap-6'>
+        <div className='flex flex-col justify-center items-center gap-6 mx-auto px-4 py-8'>
             <h1 className='font-bold text-5xl text-center '>
                 We Build <br /><span className='text-[#804fe8]'> Productive </span> Apps
             </h1>
-            <p className='text-center'>
+            <p className='text-center text-lg'>
                 At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> 
                 Our goal is to turn your ideas into digital experiences that truly make an impact.
             </p>

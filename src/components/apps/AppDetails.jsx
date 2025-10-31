@@ -3,9 +3,30 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
 import { BarChart, Legend, XAxis, YAxis, CartesianGrid, Tooltip, Bar, ResponsiveContainer } from 'recharts';
+import { useInstalledApps } from '../../contexts/InstalledAppsContext';
+import { toast } from 'react-toastify';
 
 const AppDetails = ({app}) => {
     const chartData = app.ratings;
+    const { isInstalled, installApp, uninstallApp } = useInstalledApps();
+    const installed = isInstalled(app.id);
+
+    const handleToggleInstall = () => {
+        if (installed) {
+            uninstallApp(app.id);
+        } else {
+            installApp(app.id);
+            toast.success(`${app.title} installed successfully!`, {
+                position: "top-center",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+            });
+        }
+    };
+
     return (
         <div className="bg-gray-50 p-8">
             <div className="bg-white rounded-2xl shadow-sm p-8 max-w-7xl mx-auto ">
@@ -50,8 +71,12 @@ const AppDetails = ({app}) => {
                             </div>
                         </div>
 
-                        <button className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                            Install Now ({app.size} MB)
+                        <button 
+                            onClick={handleToggleInstall}
+                            disabled={installed}
+                            className="bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+                        >
+                            {installed ? 'Installed' : `Install Now (${app.size} MB)`}
                         </button>
                     </div>
                 </div>

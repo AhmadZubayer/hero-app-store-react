@@ -12,6 +12,8 @@ import axios from 'axios'
 import AllApps from './components/pages/AllApps.jsx'
 import AppDetailsPage from './components/pages/AppDetailsPage.jsx'
 import PageDoesNotExist from './components/pages/PageDoesNotExist.jsx'
+import AppNotFound from './components/pages/AppNotFound.jsx'
+import InstalledAppsPage from './components/pages/InstalledAppsPage.jsx'
 
 
 
@@ -42,7 +44,15 @@ const router = createBrowserRouter([
        },
        Component: AppDetailsPage
       },
-      { path: 'installedApps', Component: page3 },
+      { path: 'app-not-found', Component: AppNotFound },
+      { 
+        path: 'installedApps', 
+        loader: async () => {
+          const res = await axios.get('/app-list.json');
+          return { appData: res.data };
+        },
+        Component: InstalledAppsPage 
+      },
       { path: '*', Component: PageDoesNotExist }
     ]
   }

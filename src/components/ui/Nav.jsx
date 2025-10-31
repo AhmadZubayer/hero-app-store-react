@@ -34,7 +34,7 @@ const Nav = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://github.com/AhmadZubayer" className="btn bg-gradient-to-r from-[#642fe4] to-[#995df1] text-white border-none hover:from-[#5526cc] hover:to-[#8449d9] flex items-center gap-2">
+                <a href="https://github.com/AhmadZubayer" className="text-lg btn bg-gradient-to-r from-[#642fe4] to-[#995df1] text-white border-none hover:from-[#5526cc] hover:to-[#8449d9] flex items-center gap-2">
                     <img src={github} alt="GitHub" className="w-5 h-5" />
                     Contribute
                 </a>
